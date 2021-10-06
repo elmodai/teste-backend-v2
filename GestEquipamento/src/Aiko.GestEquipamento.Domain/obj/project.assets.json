@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.Domain/Aiko.GestEquipamento.Domain.csproj",
+      "projectUniqueName": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/Aiko.GestEquipamento.Domain.csproj",
       "projectName": "Aiko.GestEquipamento.Domain",
-      "projectPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.Domain/Aiko.GestEquipamento.Domain.csproj",
+      "projectPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/Aiko.GestEquipamento.Domain.csproj",
       "packagesPath": "/Users/elmodai/.nuget/packages/",
-      "outputPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.Domain/obj/",
+      "outputPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/elmodai/.config/NuGet/NuGet.Config"

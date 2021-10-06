@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.WebApp/Aiko.GestEquipamento.WebApp.csproj": {}
+    "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.WebApp/Aiko.GestEquipamento.WebApp.csproj": {}
   },
   "projects": {
-    "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.WebApp/Aiko.GestEquipamento.WebApp.csproj": {
+    "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.WebApp/Aiko.GestEquipamento.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.WebApp/Aiko.GestEquipamento.WebApp.csproj",
+        "projectUniqueName": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.WebApp/Aiko.GestEquipamento.WebApp.csproj",
         "projectName": "Aiko.GestEquipamento.WebApp",
-        "projectPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.WebApp/Aiko.GestEquipamento.WebApp.csproj",
+        "projectPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.WebApp/Aiko.GestEquipamento.WebApp.csproj",
         "packagesPath": "/Users/elmodai/.nuget/packages/",
-        "outputPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.WebApp/obj/",
+        "outputPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.WebApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/elmodai/.config/NuGet/NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.Infra.Data/Aiko.GestEquipamento.Infra.Data.csproj": {}
+    "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.Data/Aiko.GestEquipamento.Infra.Data.csproj": {}
   },
   "projects": {
-    "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.Infra.Data/Aiko.GestEquipamento.Infra.Data.csproj": {
+    "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/Aiko.GestEquipamento.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.Infra.Data/Aiko.GestEquipamento.Infra.Data.csproj",
-        "projectName": "Aiko.GestEquipamento.Infra.Data",
-        "projectPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.Infra.Data/Aiko.GestEquipamento.Infra.Data.csproj",
+        "projectUniqueName": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/Aiko.GestEquipamento.Domain.csproj",
+        "projectName": "Aiko.GestEquipamento.Domain",
+        "projectPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/Aiko.GestEquipamento.Domain.csproj",
         "packagesPath": "/Users/elmodai/.nuget/packages/",
-        "outputPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.Infra.Data/obj/",
+        "outputPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/elmodai/.config/NuGet/NuGet.Config"
@@ -37,6 +37,80 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21463.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.Data/Aiko.GestEquipamento.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.Data/Aiko.GestEquipamento.Infra.Data.csproj",
+        "projectName": "Aiko.GestEquipamento.Infra.Data",
+        "projectPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.Data/Aiko.GestEquipamento.Infra.Data.csproj",
+        "packagesPath": "/Users/elmodai/.nuget/packages/",
+        "outputPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elmodai/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/Aiko.GestEquipamento.Domain.csproj": {
+                "projectPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/Aiko.GestEquipamento.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

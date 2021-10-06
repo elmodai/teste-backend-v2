@@ -3,21 +3,16 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="GestEquipamento" expanded="True" />
+          <Node name="GestEquipamento" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.Application FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.API FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.API PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.WebApp FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.Domain FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.Infra.IoC FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.Infra.Data FirstBuild="True" />
 </Properties>

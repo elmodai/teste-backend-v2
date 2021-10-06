@@ -3,19 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.Core", "Aiko.GestEquipamento.Core\Aiko.GestEquipamento.Core.csproj", "{FAB74A51-FDD2-43A7-88D5-8D906B1575D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.Domain", "src\Aiko.GestEquipamento.Domain\Aiko.GestEquipamento.Domain.csproj", "{6B4DE4EB-9315-462C-864D-D3373F8DD0EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.Domain", "Aiko.GestEquipamento.Domain\Aiko.GestEquipamento.Domain.csproj", "{6B4DE4EB-9315-462C-864D-D3373F8DD0EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.Application", "src\Aiko.GestEquipamento.Application\Aiko.GestEquipamento.Application.csproj", "{C256231C-2ED5-4E16-AD7F-437859AAE924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.Application", "Aiko.GestEquipamento.Application\Aiko.GestEquipamento.Application.csproj", "{C256231C-2ED5-4E16-AD7F-437859AAE924}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.Infra.Data", "src\Aiko.GestEquipamento.Infra.Data\Aiko.GestEquipamento.Infra.Data.csproj", "{CF442EC2-2F21-4103-910D-D5EECBE23CD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.Infra.Data", "Aiko.GestEquipamento.Infra.Data\Aiko.GestEquipamento.Infra.Data.csproj", "{CF442EC2-2F21-4103-910D-D5EECBE23CD4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.Infra.IoC", "src\Aiko.GestEquipamento.Infra.IoC\Aiko.GestEquipamento.Infra.IoC.csproj", "{022AA3AC-3E48-44F7-90C0-B8BAFF3C9A8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.Infra.IoC", "Aiko.GestEquipamento.Infra.IoC\Aiko.GestEquipamento.Infra.IoC.csproj", "{022AA3AC-3E48-44F7-90C0-B8BAFF3C9A8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.API", "src\Aiko.GestEquipamento.API\Aiko.GestEquipamento.API.csproj", "{6C2C7368-271E-4763-ABC0-B8FD3C671F08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.API", "Aiko.GestEquipamento.API\Aiko.GestEquipamento.API.csproj", "{6C2C7368-271E-4763-ABC0-B8FD3C671F08}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.WebApp", "Aiko.GestEquipamento.WebApp\Aiko.GestEquipamento.WebApp.csproj", "{2D8A0267-B260-4190-907F-A2839D49ABBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.WebApp", "src\Aiko.GestEquipamento.WebApp\Aiko.GestEquipamento.WebApp.csproj", "{2D8A0267-B260-4190-907F-A2839D49ABBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FAB74A51-FDD2-43A7-88D5-8D906B1575D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FAB74A51-FDD2-43A7-88D5-8D906B1575D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FAB74A51-FDD2-43A7-88D5-8D906B1575D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FAB74A51-FDD2-43A7-88D5-8D906B1575D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6B4DE4EB-9315-462C-864D-D3373F8DD0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6B4DE4EB-9315-462C-864D-D3373F8DD0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B4DE4EB-9315-462C-864D-D3373F8DD0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU

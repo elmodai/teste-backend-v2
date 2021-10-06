@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.Infra.IoC/Aiko.GestEquipamento.Infra.IoC.csproj": {}
+    "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/Aiko.GestEquipamento.Infra.IoC.csproj": {}
   },
   "projects": {
-    "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.Infra.IoC/Aiko.GestEquipamento.Infra.IoC.csproj": {
+    "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/Aiko.GestEquipamento.Infra.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.Infra.IoC/Aiko.GestEquipamento.Infra.IoC.csproj",
+        "projectUniqueName": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/Aiko.GestEquipamento.Infra.IoC.csproj",
         "projectName": "Aiko.GestEquipamento.Infra.IoC",
-        "projectPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.Infra.IoC/Aiko.GestEquipamento.Infra.IoC.csproj",
+        "projectPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/Aiko.GestEquipamento.Infra.IoC.csproj",
         "packagesPath": "/Users/elmodai/.nuget/packages/",
-        "outputPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.Infra.IoC/obj/",
+        "outputPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/elmodai/.config/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wLf72+PKrOQA5Nr3QoODDZlCxMUjPO5Ec9fPNvqcje3Vp4ps8S58nLi6FwIGVWMvCh9h3Gt1JeGsGuiQLKtnvw==",
+  "dgSpecHash": "JVoNaz+zXvRRvvfWdahSQZSC2wbpNgU0tQOMOlIHko4u9mJKX001kg0A3fj0AD2rT/9VmzBGZgkDmbzooRFBcA==",
   "success": true,
-  "projectFilePath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.WebApp/Aiko.GestEquipamento.WebApp.csproj",
+  "projectFilePath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.WebApp/Aiko.GestEquipamento.WebApp.csproj",
   "expectedPackageFiles": [
     "/Users/elmodai/.nuget/packages/microsoft.aspnetcore.mvc.razor.extensions/5.0.10/microsoft.aspnetcore.mvc.razor.extensions.5.0.10.nupkg.sha512",
     "/Users/elmodai/.nuget/packages/microsoft.aspnetcore.mvc.razor.runtimecompilation/5.0.10/microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.10.nupkg.sha512",

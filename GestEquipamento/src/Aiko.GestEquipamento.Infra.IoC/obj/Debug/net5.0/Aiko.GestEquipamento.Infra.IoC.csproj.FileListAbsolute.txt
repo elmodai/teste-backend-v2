@@ -1,0 +1,11 @@
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/bin/Debug/net5.0/Aiko.GestEquipamento.Infra.IoC.deps.json
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/bin/Debug/net5.0/Aiko.GestEquipamento.Infra.IoC.dll
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/bin/Debug/net5.0/ref/Aiko.GestEquipamento.Infra.IoC.dll
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/bin/Debug/net5.0/Aiko.GestEquipamento.Infra.IoC.pdb
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/obj/Debug/net5.0/Aiko.GestEquipamento.Infra.IoC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/obj/Debug/net5.0/Aiko.GestEquipamento.Infra.IoC.AssemblyInfoInputs.cache
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/obj/Debug/net5.0/Aiko.GestEquipamento.Infra.IoC.AssemblyInfo.cs
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/obj/Debug/net5.0/Aiko.GestEquipamento.Infra.IoC.csproj.CoreCompileInputs.cache
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/obj/Debug/net5.0/Aiko.GestEquipamento.Infra.IoC.dll
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/obj/Debug/net5.0/ref/Aiko.GestEquipamento.Infra.IoC.dll
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.IoC/obj/Debug/net5.0/Aiko.GestEquipamento.Infra.IoC.pdb
