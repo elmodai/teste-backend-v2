@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
 {
-    public class EquipmentConfiguration : IEntityTypeConfiguration<Equipment>
+    public class EquipmentModelConfiguration : IEntityTypeConfiguration<EquipmentModel>
     {
-        public void Configure(EntityTypeBuilder<Equipment> builder)
+        public void Configure(EntityTypeBuilder<EquipmentModel> builder)
         {
-            builder.ToTable("equipment");
+            builder.ToTable("equipment_model");
 
             builder.Property(e => e.Id)
                 .HasColumnName("id");
@@ -16,8 +16,6 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
             builder.Property(e => e.Name)
                 .HasColumnName("name");
 
-            builder.Property(e => e.EquipmentModelId)
-                .HasColumnName("equipment_model_id");
         }
     }
 }
