@@ -31,7 +31,6 @@ namespace Aiko.GestEquipamento.Domain.Shared
         public abstract class ABaseEntity<TKey> : IABaseEntity<TKey>
         {
             [Key]
-            [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
             public TKey Id { get; set; }
 
         }
