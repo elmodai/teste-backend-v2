@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{6C2C7368-271E-4763-ABC0-B8FD3C671F08}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GestEquipamento" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.Application FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.API FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.WebApp FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.Domain FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.Infra.IoC FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.Infra.Data FirstBuild="True" />
+</Properties>

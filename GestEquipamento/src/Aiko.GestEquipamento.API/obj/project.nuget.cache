@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "siyw4LABvU05KNVwmsGt+37K9D/U9ygmmUWxeeltf2tajfvqs0Y54YpN6kAzGkF1NhDW40sX6MdRBLHHueEL4w==",
+  "success": true,
+  "projectFilePath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/Aiko.GestEquipamento.API/Aiko.GestEquipamento.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/elmodai/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.9/microsoft.netcore.app.host.osx-x64.5.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
