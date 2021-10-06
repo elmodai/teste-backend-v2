@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Aiko.GestEquipamento.Domain.Interfaces;
 using Aiko.GestEquipamento.Infra.Data.Context;
@@ -6,7 +7,7 @@ using static Aiko.GestEquipamento.Domain.Shared.BaseEntity;
 
 namespace Aiko.GestEquipamento.Infra.Data.Repositories
 {
-    public class Repository<T> : IRepository<T> where T : ABaseEntity<int>
+    public class Repository<T> : IRepository<T> where T : ABaseEntity<Guid>
     {
         private readonly ApplicationDbContext _applicationDbContext;  
         private DbSet<T> entities;  

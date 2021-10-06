@@ -1,9 +1,10 @@
+using System;
 using System.Collections.Generic;
 using static Aiko.GestEquipamento.Domain.Shared.BaseEntity;
 
 namespace Aiko.GestEquipamento.Domain.Interfaces
 {
-    public interface IRepository<T> where T : ABaseEntity<int>
+    public interface IRepository<T> where T : ABaseEntity<Guid>
     {
         IEnumerable<T> GetAll();  
         T Get(long Id);  

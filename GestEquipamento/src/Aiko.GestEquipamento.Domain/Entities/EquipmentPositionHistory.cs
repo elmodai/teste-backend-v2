@@ -1,8 +1,9 @@
+using System;
 using static Aiko.GestEquipamento.Domain.Shared.BaseEntity;
 
 namespace Aiko.GestEquipamento.Domain.Entities
 {
-    public class EquipmentPositionHistory : AuditableEntity<int>
+    public class EquipmentPositionHistory : AuditableEntity<Guid>
     {
         public double Lat { get; set; }
 
