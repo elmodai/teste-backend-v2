@@ -3,7 +3,7 @@ using static Aiko.GestEquipamento.Domain.Shared.BaseEntity;
 
 namespace Aiko.GestEquipamento.Domain.Entities
 {
-    public class EquipmentModelStateHourlyEarnings : DeletableEntity<Guid>
+    public class EquipmentModelStateHourlyEarnings
     {
         public int Value { get; set; }
 
