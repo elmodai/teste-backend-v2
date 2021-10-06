@@ -7,7 +7,7 @@ namespace Aiko.GestEquipamento.Domain.Interfaces
     public interface IRepository<T> where T : ABaseEntity<Guid>
     {
         IEnumerable<T> GetAll();  
-        T Get(long Id);  
+        T Get(Guid Id);  
         void Insert(T entity);  
         void Update(T entity);  
         void Delete(T entity);  

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Aiko.GestEquipamento.Domain.Interfaces;
 using Aiko.GestEquipamento.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
@@ -17,41 +18,60 @@ namespace Aiko.GestEquipamento.Infra.Data.Repositories
             _applicationDbContext = applicationDbContext;  
             entities = _applicationDbContext.Set<T>();  
         }
-
-        public void Delete(T entity)
+        public void Delete(T entity)  
+        {  
+            if (entity == null)  
+            {  
+                throw new ArgumentNullException("entity");  
+            }  
+            entities.Remove(entity);  
+            _applicationDbContext.SaveChanges();  
+        }  
+        
+        public T Get(Guid Id)
         {
-            throw new System.NotImplementedException();
+            return entities.SingleOrDefault(c => c.Id == Id);  
         }
+        
+        public IEnumerable<T> GetAll()  
+        {  
+            return entities.AsEnumerable();  
+        }  
+  
+        public void Insert(T entity)  
+        {  
+            if (entity == null)  
+            {  
+                throw new ArgumentNullException("entity");  
+            }  
+            entities.Add(entity);  
+            _applicationDbContext.SaveChanges();  
+        }  
+  
+        public void Remove(T entity)  
+        {  
+            if (entity == null)  
+            {  
+                throw new ArgumentNullException("entity");  
+            }  
+            entities.Remove(entity);  
+        }  
+  
+        public void SaveChanges()  
+        {  
+            _applicationDbContext.SaveChanges();  
+        }  
+  
+        public void Update(T entity)  
+        {  
+            if (entity == null)  
+            {  
+                throw new ArgumentNullException("entity");  
+            }  
+            entities.Update(entity);  
+            _applicationDbContext.SaveChanges();  
+        } 
 
-        public T Get(long Id)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public IEnumerable<T> GetAll()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Insert(T entity)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Remove(T entity)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void SaveChanges()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Update(T entity)
-        {
-            throw new System.NotImplementedException();
-        }
 
     }
 }

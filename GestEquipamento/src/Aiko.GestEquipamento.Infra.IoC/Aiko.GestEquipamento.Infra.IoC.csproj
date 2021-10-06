@@ -1,5 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\Aiko.GestEquipamento.Application\Aiko.GestEquipamento.Application.csproj" />
+    <ProjectReference Include="..\Aiko.GestEquipamento.Domain\Aiko.GestEquipamento.Domain.csproj" />
+    <ProjectReference Include="..\Aiko.GestEquipamento.Infra.Data\Aiko.GestEquipamento.Infra.Data.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>

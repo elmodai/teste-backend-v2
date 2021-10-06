@@ -14,7 +14,7 @@
         "outputPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/elmodai/.config/NuGet/NuGet.Config"
+          "/Users/elmodai/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -66,7 +66,7 @@
         "outputPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/elmodai/.config/NuGet/NuGet.Config"
+          "/Users/elmodai/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
