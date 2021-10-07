@@ -10,6 +10,8 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
         {
             builder.ToTable("equipment_state_history");
 
+            builder.HasNoKey();
+
             builder.Property(e => e.EquipmentStateId)
                 .HasColumnName("equipment_state_id");
 

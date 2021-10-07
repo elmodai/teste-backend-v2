@@ -9,7 +9,7 @@ namespace Aiko.GestEquipamento.Domain.Entities
 
         public double Lon { get; set; }
 
-        public int EquipmentId { get; set; }
+        public Guid EquipmentId { get; set; }
 
         public Equipment Equipment { get; set; }
         

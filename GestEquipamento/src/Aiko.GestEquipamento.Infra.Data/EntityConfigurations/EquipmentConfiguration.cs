@@ -8,7 +8,7 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
     {
         public void Configure(EntityTypeBuilder<Equipment> builder)
         {
-            builder.ToTable("equipment");
+            builder.ToTable("equipment");            
 
             builder.Property(e => e.Id)
                 .HasColumnName("id");

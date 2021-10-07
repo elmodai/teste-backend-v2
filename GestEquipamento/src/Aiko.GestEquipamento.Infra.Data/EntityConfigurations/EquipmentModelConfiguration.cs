@@ -10,6 +10,17 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
         {
             builder.ToTable("equipment_model");
 
+            builder
+            .HasMany(e => e.Equipments)
+            .WithOne()
+            .HasForeignKey(e => e.EquipmentModelId)
+            .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasMany(e => e.EquipmentModelStateHourlyEarnings)
+            .WithOne()
+            .HasForeignKey(e => e.EquipmentModelId)
+            .OnDelete(DeleteBehavior.Restrict);
+
             builder.Property(e => e.Id)
                 .HasColumnName("id");
 

@@ -10,3 +10,6 @@
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Application/obj/Debug/net5.0/Aiko.GestEquipamento.Application.dll
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Application/obj/Debug/net5.0/ref/Aiko.GestEquipamento.Application.dll
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Application/obj/Debug/net5.0/Aiko.GestEquipamento.Application.pdb
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Application/bin/Debug/net5.0/Aiko.GestEquipamento.Domain.dll
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Application/bin/Debug/net5.0/Aiko.GestEquipamento.Domain.pdb
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Application/obj/Debug/net5.0/Aiko.GestEquipamento.Application.csproj.CopyComplete

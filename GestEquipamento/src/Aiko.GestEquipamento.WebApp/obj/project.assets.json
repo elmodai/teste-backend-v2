@@ -736,7 +736,8 @@
     ]
   },
   "packageFolders": {
-    "/Users/elmodai/.nuget/packages/": {}
+    "/Users/elmodai/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -747,6 +748,9 @@
       "packagesPath": "/Users/elmodai/.nuget/packages/",
       "outputPath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.WebApp/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/Users/elmodai/.config/NuGet/NuGet.Config"
       ],

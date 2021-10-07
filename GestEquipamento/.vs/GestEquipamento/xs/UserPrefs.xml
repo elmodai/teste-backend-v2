@@ -1,15 +1,31 @@
-﻿<Properties StartupConfiguration="{6C2C7368-271E-4763-ABC0-B8FD3C671F08}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{420CA4EF-818B-49B2-BF71-063CF2184114}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Aiko.GestEquipamento.Domain/Entities/Equipment.cs">
+    <Files>
+      <File FileName="src/Aiko.GestEquipamento.ConsolApp/AppContextConsole.cs" Line="21" Column="43" />
+      <File FileName="src/Aiko.GestEquipamento.ConsolApp/Program.cs" Line="15" Column="1" />
+      <File FileName="src/Aiko.GestEquipamento.Domain/Entities/Equipment.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="GestEquipamento" selected="True" />
+          <Node name="GestEquipamento" expanded="True">
+            <Node name="Aiko.GestEquipamento.ConsolApp" expanded="True" />
+            <Node name="Aiko.GestEquipamento.Domain" expanded="True">
+              <Node name="Entities" expanded="True">
+                <Node name="Equipment.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.API PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Aiko.GestEquipamento.ConsolApp/Aiko.GestEquipamento.ConsolApp.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.ConsolApp PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

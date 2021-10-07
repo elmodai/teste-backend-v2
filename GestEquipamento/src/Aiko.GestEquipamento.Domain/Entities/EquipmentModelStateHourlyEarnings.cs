@@ -7,11 +7,11 @@ namespace Aiko.GestEquipamento.Domain.Entities
     {
         public int Value { get; set; }
 
-        public int EquipmentModelId { get; set; }
+        public Guid EquipmentModelId { get; set; }
 
         public EquipmentModel EquipmentModel { get; set; }
 
-        public int EquipmentStateId { get; set; }
+        public Guid EquipmentStateId { get; set; }
 
         public EquipmentState EquipmentState { get; set; }
     }

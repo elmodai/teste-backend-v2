@@ -5,11 +5,11 @@ namespace Aiko.GestEquipamento.Domain.Entities
 {
     public class EquipmentStateHistory
     {
-        public int EquipmentStateId { get; set; }
+        public Guid EquipmentStateId { get; set; }
 
         public EquipmentState EquipmentState { get; set; }
 
-        public int EquipmentId { get; set; }
+        public Guid EquipmentId { get; set; }
 
         public Equipment Equipment { get; set; }
 

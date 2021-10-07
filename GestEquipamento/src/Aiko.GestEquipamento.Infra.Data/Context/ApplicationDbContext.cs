@@ -9,7 +9,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Context
         {
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
             optionsBuilder
-                .UseNpgsql("Host=127.0.0.1;Database=operation;Username=postgres;Password=Udtqcss8");            
+                .UseNpgsql("Server=127.0.0.1;Database=operation;Username=postgres;Password=Udtqcss8");            
 
             return new ApplicationDbContext(optionsBuilder.Options);
         }        
@@ -24,7 +24,6 @@ namespace Aiko.GestEquipamento.Infra.Data.Context
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            //builder.ApplyConfiguration(new ProductConfiguration());
         }
         
     }
