@@ -5,9 +5,9 @@ namespace Aiko.GestEquipamento.Domain.Entities
 {
     public class EquipmentPositionHistory
     {
-        public double Lat { get; set; }
+        public float Lat { get; set; }
 
-        public double Lon { get; set; }
+        public float Lon { get; set; }
 
         public Guid EquipmentId { get; set; }
 

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Aiko.GestEquipamento.Infra.Data.Migrations
 {
-    public partial class CodeFirst : Migration
+    public partial class Db_first : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
