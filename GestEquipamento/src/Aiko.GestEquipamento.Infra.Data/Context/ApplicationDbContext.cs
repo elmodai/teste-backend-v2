@@ -1,3 +1,4 @@
+using Aiko.GestEquipamento.Domain.Entities;
 using Aiko.GestEquipamento.Infra.Data.EntityConfigurations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
@@ -18,6 +19,12 @@ namespace Aiko.GestEquipamento.Infra.Data.Context
 
     public class ApplicationDbContext : DbContext
     {
+        public DbSet<Equipment> Equipments { get; set; }
+        public DbSet<EquipmentModel> PosEquipmentModels { get; set; }
+
+        public DbSet<EquipmentStateHistory> EquipmentStateHistoris { get; set; }
+        public DbSet<EquipmentModel> Posts { get; set; }
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
@@ -28,7 +35,6 @@ namespace Aiko.GestEquipamento.Infra.Data.Context
             
             base.OnModelCreating(builder);
 
-            builder.ApplyConfiguration(new EquipmentConfiguration());
 
             builder.ApplyConfiguration(new EquipmentModelConfiguration());
 
@@ -39,6 +45,9 @@ namespace Aiko.GestEquipamento.Infra.Data.Context
             builder.ApplyConfiguration(new EquipmentStateHistoryConfiguration());
 
             builder.ApplyConfiguration(new EquipmentPositionHistoryConfiguration());
+
+            builder.ApplyConfiguration(new EquipmentConfiguration());
+
         }
         
     }

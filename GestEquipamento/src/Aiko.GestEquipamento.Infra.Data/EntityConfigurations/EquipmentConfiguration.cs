@@ -20,11 +20,10 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
                 .HasColumnName("equipment_model_id");
 
 
-            // builder
-            //     .HasMany(e => e.EquipmentStateHistories)
-            //     .WithOne()
-            //     .HasForeignKey(e => e.EquipmentId)
-            //     .OnDelete(DeleteBehavior.Restrict);
+            builder
+                .HasMany(e => e.EquipmentStateHistories)
+                .WithOne()
+                .HasForeignKey(e => e.EquipmentId);
         }
     }
 }

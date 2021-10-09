@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Aiko.GestEquipamento.Infra.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211009085554_CodeFirst4")]
-    partial class CodeFirst4
+    [Migration("20211009125826_CodeFirst")]
+    partial class CodeFirst
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,9 +33,6 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("equipment_model_id");
 
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("boolean");
-
                     b.Property<string>("Name")
                         .HasColumnType("text")
                         .HasColumnName("name");
@@ -54,9 +51,6 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("id");
 
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("boolean");
-
                     b.Property<string>("Name")
                         .HasColumnType("text")
                         .HasColumnName("name");
@@ -68,6 +62,10 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
 
             modelBuilder.Entity("Aiko.GestEquipamento.Domain.Entities.EquipmentModelStateHourlyEarnings", b =>
                 {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
                     b.Property<Guid>("EquipmentModelId")
                         .HasColumnType("uuid")
                         .HasColumnName("equipment_model_id");
@@ -80,6 +78,8 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                         .HasColumnType("double precision")
                         .HasColumnName("value");
 
+                    b.HasKey("Id");
+
                     b.HasIndex("EquipmentModelId");
 
                     b.HasIndex("EquipmentStateId");
@@ -89,6 +89,10 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
 
             modelBuilder.Entity("Aiko.GestEquipamento.Domain.Entities.EquipmentPositionHistory", b =>
                 {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
                     b.Property<DateTime>("Date")
                         .HasColumnType("timestamp without time zone")
                         .HasColumnName("date");
@@ -104,6 +108,8 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                     b.Property<double>("Lon")
                         .HasColumnType("double precision")
                         .HasColumnName("lon");
+
+                    b.HasKey("Id");
 
                     b.HasIndex("EquipmentId");
 
@@ -121,9 +127,6 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                         .HasColumnType("text")
                         .HasColumnName("color");
 
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("boolean");
-
                     b.Property<string>("Name")
                         .HasColumnType("text")
                         .HasColumnName("name");
@@ -135,6 +138,10 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
 
             modelBuilder.Entity("Aiko.GestEquipamento.Domain.Entities.EquipmentStateHistory", b =>
                 {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
                     b.Property<DateTime>("Date")
                         .HasColumnType("timestamp without time zone")
                         .HasColumnName("date");
@@ -143,11 +150,18 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("equipment_id");
 
+                    b.Property<Guid?>("EquipmentId1")
+                        .HasColumnType("uuid");
+
                     b.Property<Guid>("EquipmentStateId")
                         .HasColumnType("uuid")
                         .HasColumnName("equipment_state_id");
 
+                    b.HasKey("Id");
+
                     b.HasIndex("EquipmentId");
+
+                    b.HasIndex("EquipmentId1");
 
                     b.HasIndex("EquipmentStateId");
 
@@ -197,11 +211,15 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
 
             modelBuilder.Entity("Aiko.GestEquipamento.Domain.Entities.EquipmentStateHistory", b =>
                 {
-                    b.HasOne("Aiko.GestEquipamento.Domain.Entities.Equipment", "Equipment")
-                        .WithMany()
+                    b.HasOne("Aiko.GestEquipamento.Domain.Entities.Equipment", null)
+                        .WithMany("EquipmentStateHistories")
                         .HasForeignKey("EquipmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("Aiko.GestEquipamento.Domain.Entities.Equipment", "Equipment")
+                        .WithMany()
+                        .HasForeignKey("EquipmentId1");
 
                     b.HasOne("Aiko.GestEquipamento.Domain.Entities.EquipmentState", "EquipmentState")
                         .WithMany()
@@ -212,6 +230,11 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                     b.Navigation("Equipment");
 
                     b.Navigation("EquipmentState");
+                });
+
+            modelBuilder.Entity("Aiko.GestEquipamento.Domain.Entities.Equipment", b =>
+                {
+                    b.Navigation("EquipmentStateHistories");
                 });
 #pragma warning restore 612, 618
         }

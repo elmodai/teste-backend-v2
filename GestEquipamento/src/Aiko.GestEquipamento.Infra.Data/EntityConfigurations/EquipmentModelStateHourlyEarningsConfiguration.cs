@@ -11,8 +11,6 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
         {
             builder.ToTable("equipment_model_state_hourly_earnings");
 
-            builder.HasNoKey();
-
             builder.Property(e => e.Value)
                 .HasColumnName("value");
 
