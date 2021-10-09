@@ -22,7 +22,6 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
                 .HasColumnName("lat");
 
             builder.Property(e => e.Date)
-                .HasColumnType("date")            
                 .HasColumnName("date");            
         }
     }

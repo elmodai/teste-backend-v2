@@ -20,9 +20,7 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
                 .HasColumnName("equipment_id");
 
             builder.Property(e => e.Date)
-                .HasColumnName("date")
-                .HasColumnType("date");
-
+                .HasColumnName("date");
             builder
                 .HasOne(e => e.Equipment)
                 .WithMany();          
