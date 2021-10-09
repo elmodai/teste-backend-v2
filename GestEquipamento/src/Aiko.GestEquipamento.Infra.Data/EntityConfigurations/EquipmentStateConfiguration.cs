@@ -18,6 +18,8 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
             builder.Property(e => e.Color)
                 .HasColumnName("color");
 
+            builder.Ignore(c => c.EquipmentStateHistories)
+                    .Ignore(c => c.EquipmentModelStateHourlyEarnings);  
         }
     }
 }

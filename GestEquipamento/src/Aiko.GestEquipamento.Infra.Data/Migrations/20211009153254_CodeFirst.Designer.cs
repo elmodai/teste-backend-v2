@@ -10,7 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Aiko.GestEquipamento.Infra.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211009150033_CodeFirst")]
+    [Migration("20211009153254_CodeFirst")]
     partial class CodeFirst
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

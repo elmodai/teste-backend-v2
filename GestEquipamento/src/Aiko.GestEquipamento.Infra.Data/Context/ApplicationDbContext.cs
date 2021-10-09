@@ -50,24 +50,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Context
 
             builder.ApplyConfiguration(new EquipmentStateHistoryConfiguration());
 
-            builder.ApplyConfiguration(new EquipmentPositionHistoryConfiguration());
-
-
-           builder.Entity<EquipmentModelStateHourlyEarnings>()
-           .HasNoKey();
-
-           builder.Entity<EquipmentPositionHistory>()
-           .HasNoKey();
-
-
-            builder.Entity <EquipmentStateHistory>()
-            .HasNoKey();
-
-            builder.Entity<Equipment>().Ignore(c => c.EquipmentPositionHistories);
-            builder.Entity<Equipment>().Ignore(c => c.EquipmentStateHistories);
-            builder.Entity<EquipmentModel>().Ignore(c => c.EquipmentModelStateHourlyEarnings);
-            builder.Entity<EquipmentState>().Ignore(c => c.EquipmentStateHistories);
-            builder.Entity<EquipmentState>().Ignore(c => c.EquipmentModelStateHourlyEarnings);            
+            builder.ApplyConfiguration(new EquipmentPositionHistoryConfiguration());          
 
             base.OnModelCreating(builder);
 
