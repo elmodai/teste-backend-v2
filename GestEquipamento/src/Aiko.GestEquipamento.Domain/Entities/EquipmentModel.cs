@@ -8,9 +8,9 @@ namespace Aiko.GestEquipamento.Domain.Entities
     {
         public string Name { get; set; }     
 
-        public IEnumerable<EquipmentModelStateHourlyEarnings> EquipmentModelStateHourlyEarnings { get; set; }
+        // public IEnumerable<EquipmentModelStateHourlyEarnings> EquipmentModelStateHourlyEarnings { get; set; }
 
-        public IEnumerable<Equipment> Equipments { get; set; }
+        // public IEnumerable<Equipment> Equipments { get; set; }
 
 
     }

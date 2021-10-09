@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "s4lrUoZzSDFMDfT87qAa5STnykshkxKNpzMcp7vPj2ZMeLdBvdYkA3JHBcQJ76/Hy+zza5gGfCLGrWghCisdOQ==",
+  "dgSpecHash": "wYB2Mxv0tIIOOs9DQOZLesU5hP2T4FjXNqetiSaj2025neqsz4qk97xIoDnfbOeFMQ8Dz6k5KCD9WiqVpFgymw==",
   "success": true,
   "projectFilePath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/Aiko.GestEquipamento.Domain.csproj",
   "expectedPackageFiles": [

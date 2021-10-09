@@ -5,7 +5,7 @@ namespace Aiko.GestEquipamento.Domain.Entities
 {
     public class EquipmentModelStateHourlyEarnings
     {
-        public int Value { get; set; }
+        public double Value { get; set; }
 
         public Guid EquipmentModelId { get; set; }
 

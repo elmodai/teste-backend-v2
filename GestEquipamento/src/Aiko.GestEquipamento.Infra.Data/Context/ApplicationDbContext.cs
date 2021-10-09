@@ -1,3 +1,4 @@
+using Aiko.GestEquipamento.Infra.Data.EntityConfigurations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
@@ -23,7 +24,21 @@ namespace Aiko.GestEquipamento.Infra.Data.Context
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder.HasDefaultSchema("operation");       
+            
             base.OnModelCreating(builder);
+
+            builder.ApplyConfiguration(new EquipmentConfiguration());
+
+            builder.ApplyConfiguration(new EquipmentModelConfiguration());
+
+            builder.ApplyConfiguration(new EquipmentStateConfiguration());
+
+            builder.ApplyConfiguration(new EquipmentModelStateHourlyEarningsConfiguration());
+
+            builder.ApplyConfiguration(new EquipmentStateHistoryConfiguration());
+
+            builder.ApplyConfiguration(new EquipmentPositionHistoryConfiguration());
         }
         
     }

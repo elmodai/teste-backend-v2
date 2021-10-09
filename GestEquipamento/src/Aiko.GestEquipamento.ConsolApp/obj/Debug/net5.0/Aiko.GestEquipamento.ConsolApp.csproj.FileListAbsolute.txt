@@ -33,3 +33,4 @@
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.ConsolApp/bin/Debug/net5.0/Aiko.GestEquipamento.Domain.dll
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.ConsolApp/bin/Debug/net5.0/Aiko.GestEquipamento.Domain.pdb
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.ConsolApp/obj/Debug/net5.0/Aiko.GestEquipamento.ConsolApp.csproj.CopyComplete
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.ConsolApp/bin/Debug/net5.0/Aiko.GestEquipamento.ConsolApp

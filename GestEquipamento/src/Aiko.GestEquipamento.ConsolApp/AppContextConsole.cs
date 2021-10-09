@@ -13,7 +13,7 @@ namespace Aiko.GestEquipamento.ConsolApp
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         { 
             optionsBuilder
-                .UseNpgsql("Server=127.0.0.1;Database=operation;Username=postgres;Password=Udtqcss8");
+                .UseNpgsql("Server=127.0.0.1;Database=Koperation;Username=postgres;Password=Udtqcss8");
         }
 
         protected override void OnModelCreating(ModelBuilder builder)

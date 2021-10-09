@@ -21,6 +21,11 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
             builder.Property(e => e.Date)
                 .HasColumnName("date");
 
+            builder
+                .HasOne(e => e.Equipment)
+                .WithMany();
+            
+
         }
     }
 }
