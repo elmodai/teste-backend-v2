@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Aiko.GestEquipamento.Infra.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211009154616_Db_first3")]
-    partial class Db_first3
+    [Migration("20211009161354_Db_first12")]
+    partial class Db_first12
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -127,7 +127,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
             modelBuilder.Entity("Aiko.GestEquipamento.Domain.Entities.EquipmentStateHistory", b =>
                 {
                     b.Property<DateTime>("Date")
-                        .HasColumnType("date")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("date");
 
                     b.Property<Guid>("EquipmentId")
@@ -150,6 +150,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                     b.HasOne("Aiko.GestEquipamento.Domain.Entities.EquipmentModel", "EquipmentModel")
                         .WithMany("Equipments")
                         .HasForeignKey("EquipmentModelId")
+                        .HasConstraintName("equipment_model_pkey")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Aiko.GestEquipamento.Infra.Data.Migrations
 {
-    public partial class Db_first : Migration
+    public partial class Db_first12 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -50,7 +50,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                 {
                     table.PrimaryKey("PK_equipment", x => x.id);
                     table.ForeignKey(
-                        name: "FK_equipment_equipment_model_equipment_model_id",
+                        name: "equipment_model_pkey",
                         column: x => x.equipment_model_id,
                         principalSchema: "operation",
                         principalTable: "equipment_model",
@@ -90,10 +90,10 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                 schema: "operation",
                 columns: table => new
                 {
-                    lat = table.Column<double>(type: "double precision", nullable: false),
-                    lon = table.Column<double>(type: "double precision", nullable: false),
+                    lat = table.Column<float>(type: "real", nullable: false),
+                    lon = table.Column<float>(type: "real", nullable: false),
                     equipment_id = table.Column<Guid>(type: "uuid", nullable: false),
-                    date = table.Column<DateTime>(type: "date", nullable: false)
+                    date = table.Column<DateTime>(type: "timestamp without time zone", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -113,7 +113,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                 {
                     equipment_state_id = table.Column<Guid>(type: "uuid", nullable: false),
                     equipment_id = table.Column<Guid>(type: "uuid", nullable: false),
-                    date = table.Column<DateTime>(type: "date", nullable: false)
+                    date = table.Column<DateTime>(type: "timestamp without time zone", nullable: false)
                 },
                 constraints: table =>
                 {

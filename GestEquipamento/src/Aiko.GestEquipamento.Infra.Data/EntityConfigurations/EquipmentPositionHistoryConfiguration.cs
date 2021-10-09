@@ -8,20 +8,26 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
     {
         public void Configure(EntityTypeBuilder<EquipmentPositionHistory> builder)
         {
-            builder.ToTable("equipment_position_history");
+            builder
+                .ToTable("equipment_position_history");
 
-            builder.HasNoKey();
+            builder
+                .HasNoKey();
 
-            builder.Property(e => e.EquipmentId)
+            builder
+                .Property(e => e.EquipmentId)
                 .HasColumnName("equipment_id");            
 
-            builder.Property(e => e.Lon)
+            builder
+                .Property(e => e.Lon)
                 .HasColumnName("lon");
 
-            builder.Property(e => e.Lat)
+            builder
+                .Property(e => e.Lat)
                 .HasColumnName("lat");
 
-            builder.Property(e => e.Date)
+            builder
+                .Property(e => e.Date)
                 .HasColumnName("date");            
         }
     }

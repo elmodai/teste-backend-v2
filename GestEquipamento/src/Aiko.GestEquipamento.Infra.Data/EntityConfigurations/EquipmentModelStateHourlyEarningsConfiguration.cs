@@ -9,17 +9,22 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
     {
         public void Configure(EntityTypeBuilder<EquipmentModelStateHourlyEarnings> builder)
         {
-            builder.ToTable("equipment_model_state_hourly_earnings");
+            builder
+                .ToTable("equipment_model_state_hourly_earnings");
 
-            builder.HasNoKey();
+            builder
+                .HasNoKey();
 
-            builder.Property(e => e.Value)
+            builder
+                .Property(e => e.Value)
                 .HasColumnName("value");
 
-            builder.Property(e => e.EquipmentModelId)
+            builder
+                .Property(e => e.EquipmentModelId)
                 .HasColumnName("equipment_model_id");
 
-            builder.Property(e => e.EquipmentStateId)
+            builder
+                .Property(e => e.EquipmentStateId)
                 .HasColumnName("equipment_state_id");
         }
     }

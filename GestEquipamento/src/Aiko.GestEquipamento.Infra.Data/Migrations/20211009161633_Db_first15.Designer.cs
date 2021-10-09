@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Aiko.GestEquipamento.Infra.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211009153822_Db_first")]
-    partial class Db_first
+    [Migration("20211009161633_Db_first15")]
+    partial class Db_first15
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -84,19 +84,19 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
             modelBuilder.Entity("Aiko.GestEquipamento.Domain.Entities.EquipmentPositionHistory", b =>
                 {
                     b.Property<DateTime>("Date")
-                        .HasColumnType("date")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("date");
 
                     b.Property<Guid>("EquipmentId")
                         .HasColumnType("uuid")
                         .HasColumnName("equipment_id");
 
-                    b.Property<double>("Lat")
-                        .HasColumnType("double precision")
+                    b.Property<float>("Lat")
+                        .HasColumnType("real")
                         .HasColumnName("lat");
 
-                    b.Property<double>("Lon")
-                        .HasColumnType("double precision")
+                    b.Property<float>("Lon")
+                        .HasColumnType("real")
                         .HasColumnName("lon");
 
                     b.HasIndex("EquipmentId");
@@ -127,7 +127,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
             modelBuilder.Entity("Aiko.GestEquipamento.Domain.Entities.EquipmentStateHistory", b =>
                 {
                     b.Property<DateTime>("Date")
-                        .HasColumnType("date")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("date");
 
                     b.Property<Guid>("EquipmentId")

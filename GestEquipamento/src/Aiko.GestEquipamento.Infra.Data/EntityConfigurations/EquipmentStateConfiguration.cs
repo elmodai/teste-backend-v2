@@ -7,19 +7,24 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
     {
         public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<EquipmentState> builder)
         {
-            builder.ToTable("equipment_state");
+            builder
+                .ToTable("equipment_state");
 
-            builder.Property(e => e.Id)
+            builder
+                .Property(e => e.Id)
                 .HasColumnName("id");
 
-            builder.Property(e => e.Name)
+            builder
+                .Property(e => e.Name)
                 .HasColumnName("name");
 
-            builder.Property(e => e.Color)
+            builder
+                .Property(e => e.Color)
                 .HasColumnName("color");
 
-            builder.Ignore(c => c.EquipmentStateHistories)
-                    .Ignore(c => c.EquipmentModelStateHourlyEarnings);  
+            builder
+                .Ignore(c => c.EquipmentStateHistories)
+                .Ignore(c => c.EquipmentModelStateHourlyEarnings);  
         }
     }
 }
