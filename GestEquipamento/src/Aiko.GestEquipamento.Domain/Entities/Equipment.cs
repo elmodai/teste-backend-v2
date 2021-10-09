@@ -5,7 +5,7 @@ using static Aiko.GestEquipamento.Domain.Shared.BaseEntity;
 
 namespace Aiko.GestEquipamento.Domain.Entities
 {
-    public class Equipment : DeletableEntity<Guid>
+    public class Equipment : ABaseEntity<Guid>
     {
         public string Name { get; set; }
 
