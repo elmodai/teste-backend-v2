@@ -27,6 +27,8 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
             builder.Property(e => e.Name)
                 .HasColumnName("name");
 
+            builder.Ignore(e => e.EquipmentModelStateHourlyEarnings);
+
         }
     }
 }

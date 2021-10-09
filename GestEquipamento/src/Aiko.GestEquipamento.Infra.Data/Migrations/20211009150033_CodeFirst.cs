@@ -63,14 +63,12 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                 schema: "operation",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uuid", nullable: false),
                     value = table.Column<double>(type: "double precision", nullable: false),
                     equipment_model_id = table.Column<Guid>(type: "uuid", nullable: false),
                     equipment_state_id = table.Column<Guid>(type: "uuid", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_equipment_model_state_hourly_earnings", x => x.Id);
                     table.ForeignKey(
                         name: "FK_equipment_model_state_hourly_earnings_equipment_model_equip~",
                         column: x => x.equipment_model_id,
@@ -92,15 +90,13 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                 schema: "operation",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uuid", nullable: false),
                     lat = table.Column<double>(type: "double precision", nullable: false),
                     lon = table.Column<double>(type: "double precision", nullable: false),
                     equipment_id = table.Column<Guid>(type: "uuid", nullable: false),
-                    date = table.Column<DateTime>(type: "timestamp without time zone", nullable: false)
+                    date = table.Column<DateTime>(type: "date", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_equipment_position_history", x => x.Id);
                     table.ForeignKey(
                         name: "FK_equipment_position_history_equipment_equipment_id",
                         column: x => x.equipment_id,
@@ -115,15 +111,12 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                 schema: "operation",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uuid", nullable: false),
                     equipment_state_id = table.Column<Guid>(type: "uuid", nullable: false),
                     equipment_id = table.Column<Guid>(type: "uuid", nullable: false),
-                    EquipmentId1 = table.Column<Guid>(type: "uuid", nullable: true),
-                    date = table.Column<DateTime>(type: "timestamp without time zone", nullable: false)
+                    date = table.Column<DateTime>(type: "date", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_equipment_state_history", x => x.Id);
                     table.ForeignKey(
                         name: "FK_equipment_state_history_equipment_equipment_id",
                         column: x => x.equipment_id,
@@ -131,13 +124,6 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                         principalTable: "equipment",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_equipment_state_history_equipment_EquipmentId1",
-                        column: x => x.EquipmentId1,
-                        principalSchema: "operation",
-                        principalTable: "equipment",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_equipment_state_history_equipment_state_equipment_state_id",
                         column: x => x.equipment_state_id,
@@ -182,12 +168,6 @@ namespace Aiko.GestEquipamento.Infra.Data.Migrations
                 schema: "operation",
                 table: "equipment_state_history",
                 column: "equipment_state_id");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_equipment_state_history_EquipmentId1",
-                schema: "operation",
-                table: "equipment_state_history",
-                column: "EquipmentId1");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

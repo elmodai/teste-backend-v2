@@ -20,10 +20,17 @@ namespace Aiko.GestEquipamento.Infra.Data.Context
     public class ApplicationDbContext : DbContext
     {
         public DbSet<Equipment> Equipments { get; set; }
+
         public DbSet<EquipmentModel> PosEquipmentModels { get; set; }
 
-        public DbSet<EquipmentStateHistory> EquipmentStateHistoris { get; set; }
-        public DbSet<EquipmentModel> Posts { get; set; }
+        public DbSet<EquipmentModel> EquipmentModels { get; set; }
+
+        public DbSet<EquipmentModelStateHourlyEarnings> EquipmentModelStateHourlyEarnings { get; set; }
+
+        public DbSet<EquipmentPositionHistory> EquipmentPositionHistories { get; set; }
+
+        public DbSet<EquipmentStateHistory> EquipmentStateHistories { get; set; }
+
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -32,9 +39,8 @@ namespace Aiko.GestEquipamento.Infra.Data.Context
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.HasDefaultSchema("operation");       
-            
-            base.OnModelCreating(builder);
 
+            builder.ApplyConfiguration(new EquipmentConfiguration());
 
             builder.ApplyConfiguration(new EquipmentModelConfiguration());
 
@@ -46,7 +52,25 @@ namespace Aiko.GestEquipamento.Infra.Data.Context
 
             builder.ApplyConfiguration(new EquipmentPositionHistoryConfiguration());
 
-            builder.ApplyConfiguration(new EquipmentConfiguration());
+
+           builder.Entity<EquipmentModelStateHourlyEarnings>()
+           .HasNoKey();
+
+           builder.Entity<EquipmentPositionHistory>()
+           .HasNoKey();
+
+
+            builder.Entity <EquipmentStateHistory>()
+            .HasNoKey();
+
+            builder.Entity<Equipment>().Ignore(c => c.EquipmentPositionHistories);
+            builder.Entity<Equipment>().Ignore(c => c.EquipmentStateHistories);
+            builder.Entity<EquipmentModel>().Ignore(c => c.EquipmentModelStateHourlyEarnings);
+            builder.Entity<EquipmentState>().Ignore(c => c.EquipmentStateHistories);
+            builder.Entity<EquipmentState>().Ignore(c => c.EquipmentModelStateHourlyEarnings);            
+
+            base.OnModelCreating(builder);
+
 
         }
         

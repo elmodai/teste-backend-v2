@@ -24,6 +24,9 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
                 .HasMany(e => e.EquipmentStateHistories)
                 .WithOne()
                 .HasForeignKey(e => e.EquipmentId);
+
+            builder.Ignore(e => e.EquipmentPositionHistories)
+                    .Ignore(e => e.EquipmentStateHistories);
         }
     }
 }

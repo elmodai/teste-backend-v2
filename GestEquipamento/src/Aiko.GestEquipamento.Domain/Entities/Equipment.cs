@@ -15,6 +15,6 @@ namespace Aiko.GestEquipamento.Domain.Entities
 
         public IEnumerable<EquipmentStateHistory> EquipmentStateHistories { get; set; }
 
-        // public IEnumerable<EquipmentPositionHistory> EquipmentPositionHistories { get; set; }
+        public IEnumerable<EquipmentPositionHistory> EquipmentPositionHistories { get; set; }
     }
 }
