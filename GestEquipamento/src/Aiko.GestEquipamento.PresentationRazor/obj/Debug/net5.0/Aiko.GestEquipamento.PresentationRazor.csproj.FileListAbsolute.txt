@@ -344,7 +344,6 @@
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationRazor/bin/Debug/net5.0/Aiko.GestEquipamento.Infra.Data.pdb
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationRazor/bin/Debug/net5.0/Aiko.GestEquipamento.Application.pdb
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationRazor/bin/Debug/net5.0/Aiko.GestEquipamento.Domain.pdb
-/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationRazor/obj/Debug/net5.0/Aiko.GestEquipamento.PresentationRazor.csproj.AssemblyReference.cache
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationRazor/obj/Debug/net5.0/Aiko.GestEquipamento.PresentationRazor.GeneratedMSBuildEditorConfig.editorconfig
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationRazor/obj/Debug/net5.0/Aiko.GestEquipamento.PresentationRazor.AssemblyInfoInputs.cache
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationRazor/obj/Debug/net5.0/Aiko.GestEquipamento.PresentationRazor.AssemblyInfo.cs

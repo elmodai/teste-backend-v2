@@ -4,6 +4,14 @@
     <ProjectReference Include="..\Aiko.GestEquipamento.Domain\Aiko.GestEquipamento.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Services\" />
+    <Folder Include="Mappings\" />
+  </ItemGroup>
+
+
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>

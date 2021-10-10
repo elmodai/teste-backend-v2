@@ -48,16 +48,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Repositories
             entities.Add(entity);  
             _applicationDbContext.SaveChanges();  
         }  
-  
-        public void Remove(T entity)  
-        {  
-            if (entity is null)  
-            {  
-                throw new ArgumentNullException("entity");  
-            }  
-            entities.Remove(entity);  
-        }  
-  
+          
         public void SaveChanges()  
         {  
             _applicationDbContext.SaveChanges();  

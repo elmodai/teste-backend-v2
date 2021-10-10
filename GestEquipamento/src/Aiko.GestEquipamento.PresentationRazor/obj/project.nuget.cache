@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TAisHBCM6faalUlGvk5BWHuhOU3rjWG4BpYgmkhfB94OFdRvjOzcxzJ2yE4dTt+BAoPLNVwePPe16nZgcqh9hA==",
+  "dgSpecHash": "cDToHTlMsKGX2fEQ9bkbSdL6qDqOjM0BMw06kDd26twuMqDxa0t2HE0UdKCiQ5Te9SAGfqnf0yzKnCxqL4xgZQ==",
   "success": true,
   "projectFilePath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationRazor/Aiko.GestEquipamento.PresentationRazor.csproj",
   "expectedPackageFiles": [

@@ -4,9 +4,11 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GestEquipamento" expanded="True">
-            <Node name="Aiko.GestEquipamento.PresentationRazor" expanded="True">
-              <Node name="Pages" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+            <Node name="Aiko.GestEquipamento.Application" expanded="True">
+              <Node name="Interfaces" expanded="True">
+                <Node name="IEquipmentModelService.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>

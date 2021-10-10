@@ -274,10 +274,6 @@
         }
       },
       "Aiko.GestEquipamento.Domain/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "5.0.10",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.10"
-        },
         "runtime": {
           "Aiko.GestEquipamento.Domain.dll": {}
         }
