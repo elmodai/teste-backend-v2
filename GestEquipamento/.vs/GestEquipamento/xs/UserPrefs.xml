@@ -1,38 +1,27 @@
 ﻿<Properties StartupConfiguration="{BFD4E521-6C69-4258-B783-B8C096A22C80}|Default">
   <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.PresentationRazor PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentStateController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Aiko.GestEquipamento.Application/Services/EquipmentService.cs">
     <Files>
-      <File FileName="src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentController.cs" Line="14" Column="20" />
-      <File FileName="src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentModelController.cs" Line="8" Column="49" />
-      <File FileName="src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentModelStateHourlyEarningsController.cs" Line="7" Column="49" />
-      <File FileName="src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentStateController.cs" Line="8" Column="49" />
+      <File FileName="src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentStateController.cs" Line="50" Column="10" />
+      <File FileName="src/Aiko.GestEquipamento.Infra.IoC/Extensions.cs" Line="8" Column="60" />
+      <File FileName="src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentController.cs" Line="31" Column="51" />
+      <File FileName="src/Aiko.GestEquipamento.Application/Services/EquipmentService.cs" Line="32" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GestEquipamento" expanded="True">
             <Node name="Aiko.GestEquipamento.Application" expanded="True">
-              <Node name="DTOs" expanded="True" />
               <Node name="Interfaces" expanded="True" />
-              <Node name="Services" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="EquipmentService.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="Aiko.GestEquipamento.Domain" expanded="True">
-              <Node name="Entities" expanded="True" />
               <Node name="Interfaces" expanded="True" />
-              <Node name="Shared" expanded="True" />
-            </Node>
-            <Node name="Aiko.GestEquipamento.Infra.Data" expanded="True">
-              <Node name="Context" expanded="True" />
-              <Node name="Repositories" expanded="True" />
-            </Node>
-            <Node name="Aiko.GestEquipamento.Infra.IoC" expanded="True" />
-            <Node name="Aiko.GestEquipamento.PresentationAPI" expanded="True">
-              <Node name="Controllers" expanded="True" />
             </Node>
             <Node name="Aiko.GestEquipamento.PresentationRazor" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="EquipmentStateController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -45,7 +34,9 @@
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentStateController.cs" relfile="src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentStateController.cs" line="46" column="13" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

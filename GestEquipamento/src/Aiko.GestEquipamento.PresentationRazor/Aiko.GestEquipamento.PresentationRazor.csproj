@@ -16,5 +16,9 @@
     <ProjectReference Include="..\Aiko.GestEquipamento.Infra.IoC\Aiko.GestEquipamento.Infra.IoC.csproj" />
     <ProjectReference Include="..\Aiko.GestEquipamento.Infra.Data\Aiko.GestEquipamento.Infra.Data.csproj" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Controllers\"/>
+  </ItemGroup>  
 
 </Project>

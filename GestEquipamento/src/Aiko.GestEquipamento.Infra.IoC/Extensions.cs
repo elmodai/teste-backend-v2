@@ -5,13 +5,9 @@ namespace Aiko.GestEquipamento.Infra.IoC
 {
     public static class Extensions
     {
-        public static EquipmentDTO AsEquipmentDTO(this Equipment e)
+        public static EquipmentStateDTO AsEquipmentStateDTO(this EquipmentState es)
         {
-            return new EquipmentDTO
-            {              
-                Name = e.Name,
-                EquipmentModelId = e.EquipmentModelId
-            };
+            return new EquipmentStateDTO(es.Name, es.Color);
         }
 
     }

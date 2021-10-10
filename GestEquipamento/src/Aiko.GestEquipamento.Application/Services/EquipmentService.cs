@@ -29,7 +29,7 @@ namespace Aiko.GestEquipamento.Application.Services
 
         public Task<IEnumerable<Equipment>> GetAll()
         {
-            throw new NotImplementedException();
+            return _repository.GetAll();
         }
 
         public void Insert(CreateEquipmentDTO dto)

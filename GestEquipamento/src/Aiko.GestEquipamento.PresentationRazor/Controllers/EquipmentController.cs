@@ -22,23 +22,22 @@ namespace Aiko.GestEquipamento.PresentationRazor.Controllers
             _equipmentService = equipmentService;
         }
 
-        //#region - GET
-        //// GET /equipments
-        //[HttpGet]
-        //public async Task<IEnumerable<EquipmentDTO>>  GetEquipments()
-        //{
-        //    var result = await _equipmentService.GetAll();
+        #region - GET
+        // GET /equipments
+        [HttpGet]
+        public async Task<IEnumerable<Equipment>>  GetEquipments()
+        {
 
-        //    return result.Select(e => e.AsEquipmentDTO());
-        //}
+           return await _equipmentService.GetAll();
+        }
 
-        //// GET /equipments/{id}
-        //[HttpGet("{id}")]
-        //public async Task<ActionResult<Equipment>> GetEquipment(Guid id)
-        //{
-        //    return await _equipmentService.Get(id);
-        //}
-        //#endregion
+        // GET /equipments/{id}
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Equipment>> GetEquipment(Guid id)
+        {
+           return await _equipmentService.Get(id);
+        }
+        #endregion
 
 
         #region - POST

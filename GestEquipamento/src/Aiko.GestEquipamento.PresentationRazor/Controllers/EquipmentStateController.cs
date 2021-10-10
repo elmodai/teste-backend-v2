@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Aiko.GestEquipamento.Application.DTOs;
 using Aiko.GestEquipamento.Application.Interfaces;
 using Aiko.GestEquipamento.Domain.Entities;
@@ -21,7 +24,7 @@ namespace Aiko.GestEquipamento.PresentationRazor.Controllers
         #region - POST
         // POST /equipmentstates
         [HttpPost]
-        public ActionResult<EquipmentState> InsertEquipment(CreateEquipmentStateDTO dto)
+        public ActionResult<EquipmentStateDTO> InsertEquipment(CreateEquipmentStateDTO dto)
         {
             try
             {
@@ -34,6 +37,20 @@ namespace Aiko.GestEquipamento.PresentationRazor.Controllers
             }
         }
         #endregion
+
+        #region - GET
+        // GET /equipmentstates
+        [HttpGet]
+        public async Task<IEnumerable<EquipmentState>> GetEquipmentsAsync()
+        {
+            var result = (await _equipmentStateService.GetAll());
+
+            return result;
+
+        }
+
+        #endregion
+
 
     }
 }
