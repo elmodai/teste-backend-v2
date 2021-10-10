@@ -1,8 +1,11 @@
-﻿<Properties StartupConfiguration="{394D1B6E-0B72-4788-ADAE-FE471A3CB014}|Default">
-  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.PresentationAPI PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Aiko.GestEquipamento.Application/Services/EquipmentModelStateHourlyEarningsService.cs">
+﻿<Properties StartupConfiguration="{BFD4E521-6C69-4258-B783-B8C096A22C80}|Default">
+  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.PresentationRazor PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentStateController.cs">
     <Files>
-      <File FileName="src/Aiko.GestEquipamento.Application/Services/EquipmentModelStateHourlyEarningsService.cs" Line="44" Column="29" />
+      <File FileName="src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentController.cs" Line="14" Column="20" />
+      <File FileName="src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentModelController.cs" Line="8" Column="49" />
+      <File FileName="src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentModelStateHourlyEarningsController.cs" Line="7" Column="49" />
+      <File FileName="src/Aiko.GestEquipamento.PresentationRazor/Controllers/EquipmentStateController.cs" Line="8" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,9 +14,7 @@
             <Node name="Aiko.GestEquipamento.Application" expanded="True">
               <Node name="DTOs" expanded="True" />
               <Node name="Interfaces" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="EquipmentModelStateHourlyEarningsService.cs" selected="True" />
-              </Node>
+              <Node name="Services" expanded="True" />
             </Node>
             <Node name="Aiko.GestEquipamento.Domain" expanded="True">
               <Node name="Entities" expanded="True" />
@@ -25,12 +26,19 @@
               <Node name="Repositories" expanded="True" />
             </Node>
             <Node name="Aiko.GestEquipamento.Infra.IoC" expanded="True" />
+            <Node name="Aiko.GestEquipamento.PresentationAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="Aiko.GestEquipamento.PresentationRazor" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="EquipmentStateController.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Aiko.GestEquipamento.PresentationMVC PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>Aiko.GestEquipamento.ConsolApp/Aiko.GestEquipamento.ConsolApp.csproj</String>

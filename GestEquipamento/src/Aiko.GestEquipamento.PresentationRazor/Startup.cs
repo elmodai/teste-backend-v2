@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Aiko.GestEquipamento.Infra.IoC;
+using Microsoft.OpenApi.Models;
 
 namespace Aiko.GestEquipamento.PresentationRazor
 {
@@ -28,7 +29,16 @@ namespace Aiko.GestEquipamento.PresentationRazor
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddInfrastructure(Configuration);
-            services.AddRazorPages();
+            services.AddRazorPages()
+                .AddNewtonsoftJson();
+            services.AddControllers()
+                .AddNewtonsoftJson(options =>
+                    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+                );
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Aiko.GestEquipamento.PresentationRazor", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,6 +48,9 @@ namespace Aiko.GestEquipamento.PresentationRazor
             {
                 app.UseDeveloperExceptionPage();
                 app.UseMigrationsEndPoint();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Aiko.GestEquipamento.PresentationRazor v1"));
+
             }
             else
             {
@@ -57,6 +70,8 @@ namespace Aiko.GestEquipamento.PresentationRazor
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllerRoute("default", "api/{controller=Home}/{action=Index}/{id?}");                
+                endpoints.MapControllers();
             });
         }
     }

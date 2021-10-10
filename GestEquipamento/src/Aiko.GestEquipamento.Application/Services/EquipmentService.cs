@@ -18,7 +18,8 @@ namespace Aiko.GestEquipamento.Application.Services
         }
         public void Delete(Equipment entity)
         {
-            throw new NotImplementedException();
+            _repository.Delete(entity);
+            _repository.SaveChanges();
         }
 
         public Task<Equipment> Get(Guid Id)

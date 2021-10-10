@@ -30,6 +30,7 @@ namespace Aiko.GestEquipamento.Infra.IoC
 
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddTransient<IEquipmentModelService, EquipmentModelService>();
+            services.AddTransient<IEquipmentModelStateHourlyEarningsService, EquipmentModelStateHourlyEarningsService>();
             services.AddTransient<IEquipmentStateService, EquipmentStateService>();
             services.AddTransient<IEquipmentService, EquipmentService>();
 

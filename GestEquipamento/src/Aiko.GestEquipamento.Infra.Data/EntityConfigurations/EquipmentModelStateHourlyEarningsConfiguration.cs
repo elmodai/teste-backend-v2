@@ -13,6 +13,10 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
                 .ToTable("equipment_model_state_hourly_earnings");
 
             builder
+                .HasOne(e => e.EquipmentModel)
+                .WithMany();
+                
+            builder
                 .HasNoKey();
 
             builder
