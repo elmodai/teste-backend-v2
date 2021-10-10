@@ -1,6 +1,6 @@
 namespace Aiko.GestEquipamento.Application.DTOs
 {
-    public record CreateEquipmentStateDTO : ACreateDTO
+    public record CreateEquipmentStateDTO
     {
         public string Name { get; set; }
 
