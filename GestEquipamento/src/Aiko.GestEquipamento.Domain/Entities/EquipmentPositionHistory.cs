@@ -3,7 +3,7 @@ using static Aiko.GestEquipamento.Domain.Shared.BaseEntity;
 
 namespace Aiko.GestEquipamento.Domain.Entities
 {
-    public class EquipmentPositionHistory
+    public class EquipmentPositionHistory : ABaseEntity<Guid>
     {
         public float Lat { get; set; }
 

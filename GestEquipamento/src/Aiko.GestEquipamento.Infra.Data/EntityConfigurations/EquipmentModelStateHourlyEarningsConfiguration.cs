@@ -26,6 +26,9 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
             builder
                 .Property(e => e.EquipmentStateId)
                 .HasColumnName("equipment_state_id");
+
+            builder
+                .Ignore(e => e.Id);
         }
     }
 }

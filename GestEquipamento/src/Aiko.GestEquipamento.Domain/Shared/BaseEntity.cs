@@ -31,5 +31,10 @@ namespace Aiko.GestEquipamento.Domain.Shared
             public DateTime? Date { get; set; }
         }
 
+        public abstract class ACRUDOperator<TKey> 
+        {
+        }
+
+
     }
 }

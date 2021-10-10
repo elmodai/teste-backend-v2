@@ -2,6 +2,7 @@
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/bin/Debug/net5.0/Aiko.GestEquipamento.Domain.dll
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/bin/Debug/net5.0/ref/Aiko.GestEquipamento.Domain.dll
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/bin/Debug/net5.0/Aiko.GestEquipamento.Domain.pdb
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/obj/Debug/net5.0/Aiko.GestEquipamento.Domain.csproj.AssemblyReference.cache
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/obj/Debug/net5.0/Aiko.GestEquipamento.Domain.GeneratedMSBuildEditorConfig.editorconfig
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/obj/Debug/net5.0/Aiko.GestEquipamento.Domain.AssemblyInfoInputs.cache
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/obj/Debug/net5.0/Aiko.GestEquipamento.Domain.AssemblyInfo.cs
@@ -9,4 +10,3 @@
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/obj/Debug/net5.0/Aiko.GestEquipamento.Domain.dll
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/obj/Debug/net5.0/ref/Aiko.GestEquipamento.Domain.dll
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/obj/Debug/net5.0/Aiko.GestEquipamento.Domain.pdb
-/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/obj/Debug/net5.0/Aiko.GestEquipamento.Domain.csproj.AssemblyReference.cache

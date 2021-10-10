@@ -28,12 +28,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Repositories
             entities.Remove(entity);  
             _applicationDbContext.SaveChanges();  
         }  
-        
-        public async Task<T> Get(Guid Id)
-        {
-            return await entities.SingleOrDefaultAsync(c => c.Id == Id);  
-        }
-        
+                
         public async Task<IEnumerable<T>> GetAll()  
         {  
             return await entities.ToListAsync();  

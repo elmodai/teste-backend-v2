@@ -1,9 +1,10 @@
 using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using static Aiko.GestEquipamento.Domain.Shared.BaseEntity;
 
 namespace Aiko.GestEquipamento.Domain.Entities
 {
-    public class EquipmentModelStateHourlyEarnings
+    public class EquipmentModelStateHourlyEarnings : ABaseEntity<Guid>
     {
         public float Value { get; set; }
 

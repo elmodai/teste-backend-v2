@@ -3,7 +3,7 @@ using static Aiko.GestEquipamento.Domain.Shared.BaseEntity;
 
 namespace Aiko.GestEquipamento.Domain.Entities
 {
-    public class EquipmentStateHistory
+    public class EquipmentStateHistory : ABaseEntity<Guid>
     {
         public Guid EquipmentStateId { get; set; }
 
