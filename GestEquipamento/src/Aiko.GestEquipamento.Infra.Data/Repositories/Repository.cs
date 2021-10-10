@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Threading.Tasks;
 using Aiko.GestEquipamento.Domain.Interfaces;
 using Aiko.GestEquipamento.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
@@ -20,7 +20,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Repositories
         }
         public void Delete(T entity)  
         {  
-            if (entity == null)  
+            if (entity is null)  
             {  
                 throw new ArgumentNullException("entity");  
             }  
@@ -28,19 +28,19 @@ namespace Aiko.GestEquipamento.Infra.Data.Repositories
             _applicationDbContext.SaveChanges();  
         }  
         
-        public T Get(Guid Id)
+        public async Task<T> Get(Guid Id)
         {
-            return entities.SingleOrDefault(c => c.Id == Id);  
+            return await entities.SingleOrDefaultAsync(c => c.Id == Id);  
         }
         
-        public IEnumerable<T> GetAll()  
+        public async Task<IEnumerable<T>> GetAll()  
         {  
-            return entities.AsEnumerable();  
+            return await entities.ToListAsync();  
         }  
   
         public void Insert(T entity)  
         {  
-            if (entity == null)  
+            if (entity is null)  
             {  
                 throw new ArgumentNullException("entity");  
             }  
@@ -50,7 +50,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Repositories
   
         public void Remove(T entity)  
         {  
-            if (entity == null)  
+            if (entity is null)  
             {  
                 throw new ArgumentNullException("entity");  
             }  
@@ -64,7 +64,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Repositories
   
         public void Update(T entity)  
         {  
-            if (entity == null)  
+            if (entity is null)  
             {  
                 throw new ArgumentNullException("entity");  
             }  

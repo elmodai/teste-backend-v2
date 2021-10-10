@@ -11,11 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.Infra.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.Infra.IoC", "src\Aiko.GestEquipamento.Infra.IoC\Aiko.GestEquipamento.Infra.IoC.csproj", "{022AA3AC-3E48-44F7-90C0-B8BAFF3C9A8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.API", "src\Aiko.GestEquipamento.API\Aiko.GestEquipamento.API.csproj", "{6C2C7368-271E-4763-ABC0-B8FD3C671F08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.PresentationMVC", "src\Aiko.GestEquipamento.PresentationMVC\Aiko.GestEquipamento.PresentationMVC.csproj", "{19F92822-1A25-4FC8-83CE-2E1C39A0A9D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.WebApp", "src\Aiko.GestEquipamento.WebApp\Aiko.GestEquipamento.WebApp.csproj", "{2D8A0267-B260-4190-907F-A2839D49ABBE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.ConsolApp", "src\Aiko.GestEquipamento.ConsolApp\Aiko.GestEquipamento.ConsolApp.csproj", "{420CA4EF-818B-49B2-BF71-063CF2184114}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiko.GestEquipamento.PresentationAPI", "src\Aiko.GestEquipamento.PresentationAPI\Aiko.GestEquipamento.PresentationAPI.csproj", "{394D1B6E-0B72-4788-ADAE-FE471A3CB014}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,18 +37,14 @@ Global
 		{022AA3AC-3E48-44F7-90C0-B8BAFF3C9A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{022AA3AC-3E48-44F7-90C0-B8BAFF3C9A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{022AA3AC-3E48-44F7-90C0-B8BAFF3C9A8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6C2C7368-271E-4763-ABC0-B8FD3C671F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C2C7368-271E-4763-ABC0-B8FD3C671F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C2C7368-271E-4763-ABC0-B8FD3C671F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C2C7368-271E-4763-ABC0-B8FD3C671F08}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D8A0267-B260-4190-907F-A2839D49ABBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D8A0267-B260-4190-907F-A2839D49ABBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D8A0267-B260-4190-907F-A2839D49ABBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D8A0267-B260-4190-907F-A2839D49ABBE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{420CA4EF-818B-49B2-BF71-063CF2184114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{420CA4EF-818B-49B2-BF71-063CF2184114}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{420CA4EF-818B-49B2-BF71-063CF2184114}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{420CA4EF-818B-49B2-BF71-063CF2184114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F92822-1A25-4FC8-83CE-2E1C39A0A9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F92822-1A25-4FC8-83CE-2E1C39A0A9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F92822-1A25-4FC8-83CE-2E1C39A0A9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F92822-1A25-4FC8-83CE-2E1C39A0A9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394D1B6E-0B72-4788-ADAE-FE471A3CB014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394D1B6E-0B72-4788-ADAE-FE471A3CB014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394D1B6E-0B72-4788-ADAE-FE471A3CB014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394D1B6E-0B72-4788-ADAE-FE471A3CB014}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

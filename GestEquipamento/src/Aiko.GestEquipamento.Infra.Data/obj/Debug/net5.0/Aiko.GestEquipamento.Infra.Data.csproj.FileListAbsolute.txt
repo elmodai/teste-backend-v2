@@ -15,3 +15,4 @@
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.Data/obj/Debug/net5.0/ref/Aiko.GestEquipamento.Infra.Data.dll
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.Data/obj/Debug/net5.0/Aiko.GestEquipamento.Infra.Data.pdb
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.Data/obj/Debug/net5.0/Aiko.GestEquipamento.Infra.Data.genruntimeconfig.cache
+/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Infra.Data/obj/Debug/net5.0/Aiko.GestEquipamento.Infra.Data.csproj.CopyComplete

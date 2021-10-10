@@ -14,7 +14,6 @@ namespace Aiko.GestEquipamento.Infra.Data.EntityConfigurations
             builder
                 .HasNoKey();
 
-
             builder
                 .Property(e => e.EquipmentStateId)
                 .HasColumnName("equipment_state_id");
