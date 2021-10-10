@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Aiko.GestEquipamento.Infra.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Aiko.GestEquipamento.PresentationMVC.Models;
 
 namespace Aiko.GestEquipamento.PresentationMVC.Controllers
 {

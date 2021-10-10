@@ -8,4 +8,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Aiko.GestEquipamento.Infra.Data\Aiko.GestEquipamento.Infra.Data.csproj" />
+    <ProjectReference Include="..\Aiko.GestEquipamento.Infra.IoC\Aiko.GestEquipamento.Infra.IoC.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -21,13 +21,13 @@ using Aiko.GestEquipamento.PresentationMVC;
 #nullable disable
 #nullable restore
 #line 2 "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationMVC/Views/_ViewImports.cshtml"
-using Aiko.GestEquipamento.PresentationMVC.Models;
+using Aiko.GestEquipamento.Infra.Data.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4ecc4d2bcad30a6aee551879bc7e7094ebb4184d", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57b17bb3148dd22c2c26915bc29e4cabd1658822", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ff8ce28542f62f19f56f351f1c9272ea1e425637", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998
