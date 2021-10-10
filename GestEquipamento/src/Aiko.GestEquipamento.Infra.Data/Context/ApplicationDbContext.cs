@@ -1,5 +1,6 @@
 using Aiko.GestEquipamento.Domain.Entities;
 using Aiko.GestEquipamento.Infra.Data.EntityConfigurations;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
@@ -17,7 +18,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Context
         }        
     }
 
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext
     {
         public DbSet<Equipment> Equipments { get; set; }
 

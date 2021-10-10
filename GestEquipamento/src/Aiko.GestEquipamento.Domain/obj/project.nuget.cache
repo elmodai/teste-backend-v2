@@ -1,31 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s4lrUoZzSDFMDfT87qAa5STnykshkxKNpzMcp7vPj2ZMeLdBvdYkA3JHBcQJ76/Hy+zza5gGfCLGrWghCisdOQ==",
+  "dgSpecHash": "JgNChsPOO+z6Libs4UJycy3bbqMP6NCYWIaA/UXQGXuOXCKERV1cFfZtB44O5TfQ4xWNwN6+vkhX7+2UaBBxnw==",
   "success": true,
   "projectFilePath": "/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.Domain/Aiko.GestEquipamento.Domain.csproj",
-  "expectedPackageFiles": [
-    "/Users/elmodai/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.entityframeworkcore/5.0.10/microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.10/microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.entityframeworkcore.analyzers/5.0.10/microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.entityframeworkcore.design/5.0.10/microsoft.entityframeworkcore.design.5.0.10.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.entityframeworkcore.relational/5.0.10/microsoft.entityframeworkcore.relational.5.0.10.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.extensions.caching.abstractions/5.0.0/microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.extensions.caching.memory/5.0.0/microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.2/microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/npgsql/5.0.10/npgsql.5.0.10.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/npgsql.entityframeworkcore.postgresql/5.0.10/npgsql.entityframeworkcore.postgresql.5.0.10.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "/Users/elmodai/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
