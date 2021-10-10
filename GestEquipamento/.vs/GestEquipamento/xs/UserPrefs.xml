@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{19F92822-1A25-4FC8-83CE-2E1C39A0A9D4}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Aiko.GestEquipamento.PresentationRazor/Pages/_ViewImports.cshtml">
+    <Files>
+      <File FileName="src/Aiko.GestEquipamento.PresentationRazor/Program.cs" Line="27" Column="71" />
+      <File FileName="src/Aiko.GestEquipamento.PresentationRazor/Startup.cs" Line="11" Column="1" />
+      <File FileName="src/Aiko.GestEquipamento.PresentationRazor/Pages/_ViewImports.cshtml" Line="3" Column="46" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GestEquipamento" expanded="True">
-            <Node name="Aiko.GestEquipamento.PresentationAPI" expanded="True" />
-            <Node name="Aiko.GestEquipamento.PresentationMVC" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
+            <Node name="Aiko.GestEquipamento.PresentationRazor" expanded="True">
+              <Node name="Pages" expanded="True">
                 <Node name="_ViewImports.cshtml" selected="True" />
               </Node>
             </Node>
