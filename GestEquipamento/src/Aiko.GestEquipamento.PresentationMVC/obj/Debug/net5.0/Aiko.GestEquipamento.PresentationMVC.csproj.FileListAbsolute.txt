@@ -1,7 +1,6 @@
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationMVC/bin/Debug/net5.0/appsettings.Development.json
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationMVC/bin/Debug/net5.0/appsettings.json
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationMVC/bin/Debug/net5.0/Aiko.GestEquipamento.PresentationMVC.StaticWebAssets.xml
-/Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationMVC/bin/Debug/net5.0/app.db
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationMVC/bin/Debug/net5.0/Aiko.GestEquipamento.PresentationMVC.deps.json
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationMVC/bin/Debug/net5.0/Aiko.GestEquipamento.PresentationMVC.runtimeconfig.json
 /Users/elmodai/Projects/workspace/teste-backend-v2/GestEquipamento/src/Aiko.GestEquipamento.PresentationMVC/bin/Debug/net5.0/Aiko.GestEquipamento.PresentationMVC.runtimeconfig.dev.json
