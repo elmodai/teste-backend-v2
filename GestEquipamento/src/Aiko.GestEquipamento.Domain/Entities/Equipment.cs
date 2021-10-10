@@ -1,4 +1,3 @@
-
 using System;
 using System.Collections.Generic;
 using static Aiko.GestEquipamento.Domain.Shared.BaseEntity;
