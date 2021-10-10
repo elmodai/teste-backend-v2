@@ -2,11 +2,11 @@ using System;
 
 namespace Aiko.GestEquipamento.Application.DTOs
 {
-    public class CreateEquipmentDTO : ACreateDTO
+    public record CreateEquipmentDTO : ACreateDTO
     {
         public string Name { get; set; }
 
-        public Guid EquipmentModelId { get; set; }
+        public string EquipmentModelId { get; set; }
         
     }
 }

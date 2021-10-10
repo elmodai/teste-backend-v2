@@ -18,7 +18,7 @@ namespace Aiko.GestEquipamento.Infra.Data.Context
         }        
     }
 
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : DbContext
     {
         public DbSet<Equipment> Equipments { get; set; }
 

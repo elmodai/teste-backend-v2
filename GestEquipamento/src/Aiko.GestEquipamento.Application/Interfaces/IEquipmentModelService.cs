@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Aiko.GestEquipamento.Application.DTOs;
 using Aiko.GestEquipamento.Domain.Entities;
 
 namespace Aiko.GestEquipamento.Application.Interfaces
@@ -9,7 +10,7 @@ namespace Aiko.GestEquipamento.Application.Interfaces
     {
         Task<IEnumerable<EquipmentModel>> GetAll();  
         Task<EquipmentModel> Get(Guid Id);  
-        void Insert(EquipmentModel entity);  
+        void Insert(CreateEquipmentModelDTO dto);  
         void Update(EquipmentModel entity);  
         void Delete(EquipmentModel entity);           
          
